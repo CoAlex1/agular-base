@@ -1,0 +1,19 @@
+<div
+  class="card"
+  [style.width]="width"
+  [style.height]="height"
+  [ngStyle]="otherStyles"
+>
+  <div class="card-body">
+    <img [src]="content.imageSrc" [alt]="content.imageAlt" />
+    {{ content.text }}
+  </div>
+  <div class="card-bottom">
+    <div class="card-title">{{ title }}</div>
+    <div class="icons-container">
+      <i class="icons fa-brands fa-github fa-xl" style="color: #007bff"></i>
+      <i class="icons fa-brands fa-youtube fa-xl" style="color: #007bff"></i>
+      <i class="icons fa-solid fa-heart-pulse fa-xl" style="color: #007bff"></i>
+    </div>
+  </div>
+</div>
