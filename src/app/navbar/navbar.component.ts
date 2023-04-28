@@ -6,7 +6,7 @@ import { Component, HostListener, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent {
-  private readonly NAVBAR_SCROLL_THRESHOLD = 50; // Set your own scroll threshold value here
+  private readonly NAVBAR_SCROLL_THRESHOLD = 60;
   private isNavbarScrolled = false;
 
   @HostListener('window:scroll')
